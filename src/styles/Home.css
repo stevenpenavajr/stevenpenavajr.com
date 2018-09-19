@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Chivo:700');
+
+body {
+	background-color: darkslateblue;
+}
+
+.Title-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	width: 100%;
+	z-index:2;
+}
+
+#Name {
+	font-size: 7em;
+	text-align: center;
+	font-family: 'Chivo', sans-serif;
+}
+
+.Particle-background {
+	z-index:1;
+}
+
