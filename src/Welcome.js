@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/Home.css';
+import './styles/Welcome.css';
 
 import Particles from 'react-particles-js';
 import jsonData from './data/particlesjs-config.json';
@@ -11,12 +11,11 @@ import mailLogo from './assets/at.svg'
 
 const particleOptions = jsonData;
 
-
-class Home extends Component {
+class Welcome extends Component {
 	render() {
 		console.log(particleOptions);
 		return (
-			<div>
+			<div className="home-page">
 				<Particles params = {particleOptions} className="Particle-background"/>
 				<div className="title-container">
 					<h1 id="title-name">STEVEN PENAVA</h1>
@@ -33,9 +32,8 @@ class Home extends Component {
 					</div>
 				</div>
 			</div>
-
 		);
 	}
 }
 
-export default Home;
+export default Welcome;

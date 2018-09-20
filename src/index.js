@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Home from './Home';
+import Portfolio from './Portfolio';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-	<Home />,
+	<div>
+		<Portfolio />
+	</div>
+	,
 	document.getElementById('root')
 );
 
