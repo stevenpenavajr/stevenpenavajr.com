@@ -12,17 +12,19 @@ import mailLogo from './assets/at.svg'
 const particleOptions = jsonData;
 
 class Welcome extends Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
-		console.log(particleOptions);
 		return (
-			<div className="home-page">
+			<div className="Welcome">
 				<Particles params = {particleOptions} className="Particle-background"/>
 				<div className="title-container">
 					<h1 id="title-name">STEVEN PENAVA</h1>
 					<div id="title-button-container">
-						<button type="button" class="btn btn-outline-primary title-button">EDUCATION</button>
+						<button type="button" class="btn btn-outline-primary title-button">SKILLS</button>
 						<button type="button" class="btn btn-outline-primary title-button">FIELD EXPERIENCE</button>
-						<button type="button" class="btn btn-outline-primary title-button">SKILL SET</button>
 						<button type="button" class="btn btn-outline-primary title-button">CURRENT PROJECTS</button>
 					</div>
 					<div id="title-img-container">

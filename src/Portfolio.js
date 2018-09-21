@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/Portfolio.css';
 
 import Welcome from './Welcome';
-import jsonData from './data/particlesjs-config.json';
+import Education from './Skills';
 
 
 class Portfolio extends Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
-			<div id="main">
+			<div id="Portfolio">
 				<Welcome />
+				<Education />
 			</div>
 		);
 	}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.Skills {
+    position: relative;
+    height: 150vh !important;
+    background: #F8F8F8;
+}
+
+#skills-title-container {
+    position: relative;
+    text-align: center;
+    /* background: black; */
+    width: 50%;
+    margin: 0 auto;
+
+    padding-top: 30px;
+}
+
+#skills-title {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    color: #1D2951;
+    font-size: 5em;
+}
+
+#skills-about {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    font-size: 1.4em;
+}
