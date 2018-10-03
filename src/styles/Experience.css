@@ -1,0 +1,38 @@
+.Experience {
+    position: relative;
+    height: 150vh !important;
+    background: #F8F8F8;
+}
+
+#experience-title-container {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+
+    padding-top: 30px;
+}
+
+#experience-title {
+    color: #1D2951;
+    font-size: 5em;
+}
+
+.experience-about {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    font-size: 1.4em;
+}
+
+.company {
+    background-color: red;
+    width: 100%;
+    height: 50vh;
+}
+
+
+.logo {
+    margin-top: 50px;
+    margin-left: 30px;
+}

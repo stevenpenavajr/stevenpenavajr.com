@@ -2,14 +2,13 @@
 
 .Skills {
     position: relative;
-    height: 150vh !important;
+    height: 145vh !important;
     background: #F8F8F8;
 }
 
 #skills-title-container {
     position: relative;
     text-align: center;
-    /* background: black; */
     width: 50%;
     margin: 0 auto;
 
@@ -17,14 +16,67 @@
 }
 
 #skills-title {
-    /* font-family: 'Josefin Sans', sans-serif; */
     color: #1D2951;
     font-size: 5em;
 }
 
-#skills-about {
+.skills-about {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 30px;
     font-size: 1.4em;
+}
+
+#skills-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 80%;
+    height: 5%;
+    margin: 0 auto;
+}
+
+.skill-button {
+    border-color: #1D2951;
+    color: #1D2951;
+    width: 20%;
+    transition: all .2s ease-in-out;
+}
+
+.skill-button:hover {
+    /*border-color: #545E7F;*/
+    background-color: #1D2951;
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+
+.icon-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.icons-row {
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.icon-box {
+    transition: all .2s ease-in-out;
+}
+
+.icon-box:hover {
+    transform: scale(1.1);
+}
+
+.icon-box > p {
+    padding: 5px;
+    text-align: center;
+}
+
+.skills-subtitle {
+    text-align: center;
 }

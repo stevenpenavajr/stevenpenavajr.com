@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Portfolio from './Portfolio';
+import Portfolio from './sections/Portfolio';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/Welcome.css';
+import './../styles/Welcome.css';
 
 import Particles from 'react-particles-js';
-import jsonData from './data/particlesjs-config.json';
+import jsonData from './../data/particlesjs-config.json';
 
-import githubLogo from './assets/github-logo.svg'
-import linkedInLogo from './assets/linkedin-logo-round.svg'
-import mailLogo from './assets/at.svg'
+import githubLogo from './../assets/github-logo.svg'
+import linkedInLogo from './../assets/linkedin-logo-round.svg'
+import mailLogo from './../assets/at.svg'
 
 const particleOptions = jsonData;
 
@@ -23,8 +23,8 @@ class Welcome extends Component {
 				<div className="title-container">
 					<h1 id="title-name">STEVEN PENAVA</h1>
 					<div id="title-button-container">
-						<button type="button" class="btn btn-outline-primary title-button">SKILLS</button>
-						<button type="button" class="btn btn-outline-primary title-button">FIELD EXPERIENCE</button>
+						<a href="#skills-section"><button type="button" class="btn btn-outline-primary title-button">SKILLS</button></a>
+						<a href="#experience-section"><button type="button" class="btn btn-outline-primary title-button">FIELD EXPERIENCE</button></a>
 						<button type="button" class="btn btn-outline-primary title-button">CURRENT PROJECTS</button>
 					</div>
 					<div id="title-img-container">

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/Portfolio.css';
+import './../styles/Portfolio.css';
 
 import Welcome from './Welcome';
-import Education from './Skills';
+import Skills from './Skills';
+import Experience from './experience/Experience';
 
 
 class Portfolio extends Component {
@@ -15,7 +16,8 @@ class Portfolio extends Component {
 		return (
 			<div id="Portfolio">
 				<Welcome />
-				<Education />
+				<Skills />
+				<Experience />
 			</div>
 		);
 	}
