@@ -18,19 +18,19 @@ class Welcome extends Component {
 
 	render() {
 		return (
-			<div className="Welcome">
+			<div id="Welcome">
 				<Particles params = {particleOptions} className="Particle-background"/>
-				<div className="title-container">
-					<h1 id="title-name">STEVEN PENAVA</h1>
-					<div id="title-button-container">
-						<a href="#skills-section"><button type="button" class="btn btn-outline-primary title-button">SKILLS</button></a>
-						<a href="#experience-section"><button type="button" class="btn btn-outline-primary title-button">FIELD EXPERIENCE</button></a>
-						<button type="button" class="btn btn-outline-primary title-button">CURRENT PROJECTS</button>
+				<div className="welcome-title-container">
+					<h1 id="welcome-title-name">STEVEN PENAVA</h1>
+					<div id="welcome-section-button-container">
+						<a href="#skills-section"><button type="button" class="btn btn-outline-primary welcome-section-button">SKILLS</button></a>
+						<a href="#experience-section"><button type="button" class="btn btn-outline-primary welcome-section-button">FIELD EXPERIENCE</button></a>
+						<button type="button" class="btn btn-outline-primary welcome-section-button">CURRENT PROJECTS</button>
 					</div>
-					<div id="title-img-container">
-						<a href="https://github.com/stevenpenavajr" target="_blank"><img className="title-logo" src={githubLogo} alt="Github"></img></a>
-						<a href="https://www.linkedin.com/in/steven-penava-jr-a58398bb/" target="_blank"><img className="title-logo" src={linkedInLogo} alt="LinkedIn"></img></a>
-						<a href="mailto:steven.penava@gmail.com"><img className="title-logo" src={mailLogo} alt="E-mail"></img></a>
+					<div id="welcome-title-img-container">
+						<a href="https://github.com/stevenpenavajr" target="_blank"><img className="welcome-title-icon" src={githubLogo} alt="Github"></img></a>
+						<a href="https://www.linkedin.com/in/steven-penava-jr-a58398bb/" target="_blank"><img className="welcome-title-icon" src={linkedInLogo} alt="LinkedIn"></img></a>
+						<a href="mailto:steven.penava@gmail.com"><img className="welcome-title-icon" src={mailLogo} alt="E-mail"></img></a>
 					</div>
 				</div>
 			</div>

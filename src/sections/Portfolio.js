@@ -5,6 +5,7 @@ import './../styles/Portfolio.css';
 import Welcome from './Welcome';
 import Skills from './Skills';
 import Experience from './experience/Experience';
+import Projects from './Projects';
 
 
 class Portfolio extends Component {
@@ -18,6 +19,7 @@ class Portfolio extends Component {
 				<Welcome />
 				<Skills />
 				<Experience />
+				<Projects />
 			</div>
 		);
 	}

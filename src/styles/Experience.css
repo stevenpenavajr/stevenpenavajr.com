@@ -1,6 +1,6 @@
 .Experience {
     position: relative;
-    height: 150vh !important;
+    /* height: 180vh !important; */
     background: #F8F8F8;
 }
 
@@ -62,6 +62,7 @@
     padding-top: 30px;
     font-size: 3em;
     color: white;
+    font-weight: bold;
 }
 
 .lexmark-blurb-container {
@@ -72,6 +73,41 @@
 
 .uk-blurb-container {
     background: #0033A0;
-    height: 500px;
+    height: 800px;
     /* height: 100vh; */
+}
+
+.company-role {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.company-role-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.icon-container-exp {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.icons-row-exp {
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.icon-box-exp {
+    transition: all .2s ease-in-out;
+}
+
+.icon-box-exp:hover {
+    transform: scale(1.1);
 }
