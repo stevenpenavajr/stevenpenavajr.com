@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react';
 import {Collapse} from 'react-collapse';
 import {presets} from 'react-motion';
 
@@ -8,29 +9,6 @@ import textData from './../../data/text.json';
 import cbsiLogo from './../../assets/companies/cbsi-red.svg';
 import lexmarkLogo from './../../assets/companies/lexmark.svg';
 import ukLogo from './../../assets/companies/uk.svg';
-import {
-    html,
-    css,
-    js,
-    php,
-    bootstrap,
-    sass,
-    symfony,
-    react,
-    doctrine,
-    wordpress,
-    mysql,
-    node,
-    drupal,
-    chrome,
-    docker,
-    bitbucket,
-    python,
-    jetbrains,
-    java,
-    cpp,
-    csharp
-} from '../../assets/icons';
 
 class Experience extends Component {
     constructor(props) {
@@ -41,29 +19,64 @@ class Experience extends Component {
 
     state = {
         isOpened: false,
-        blurbHeight: 100,
         preset: 'gentle',
         stiffness: presets.stiff.stiffness,
         damping: presets.stiff.damping,
-        companyShown: "CBS"
+        companyShown: "CBS",
+        oneCompanyIsOpened: false,
+        height: 100
     }
 
     handleImageClick(company) {
         console.log(this.state.companyShown);
         this.setState(
             {
-                isOpened: !this.state.isOpened,
+                isOpened: true,
                 companyShown: company
             }
         )
     }
 
-    renderCompany() {
 
-        var height;
+	render() {
+
+
+        const {
+            isOpened,
+            height,
+            stiffness,
+            damping
+          } = this.state;
+
+		return (
+			<div id="experience-section" className="Experience">
+                <div id="experience-title-container">
+                    <h1 id="experience-title">FIELD EXPERIENCE</h1>
+                </div>
+                <div className="experience-about">
+                    <p>{textData["blurbs"]["experience-descr"]}</p>
+                    <br />
+                </div>
+
+                <div className="company-button-container">
+                    <div className="company-logo-box"><img onClick={() => this.handleImageClick("CBS")} className="company-logo" src={cbsiLogo}></img><p>CBS Interactive<br />Summer 2018</p></div>
+                    <div className="company-logo-box"><img onClick={() => this.handleImageClick("Lexmark")} className="company-logo" src={lexmarkLogo}></img><p>Lexmark International<br />Summer 2017</p></div>
+                    <div className="company-logo-box"><img onClick={() => this.handleImageClick("UK")} className="company-logo" src={ukLogo}></img><p>University of Kentucky<br />2015 - Present</p></div>
+                </div>
+
+                <Collapse id="collapser" isOpened={isOpened} springConfig={{stiffness, damping}}>
+                    { this.renderCompany(height) }
+                </Collapse> 
+            </div>
+		);
+    }
+
+    renderCompany(height) {
 
         if (this.state.companyShown === "CBS") {
-            height = 500;
+
+            height = 450;
+            
             return(
             <div style={{height}} className="cbs-blurb-container">
                 <h3 className="company-about-title">CBS Interactive</h3>
@@ -75,18 +88,20 @@ class Experience extends Component {
                 <p className="company-role-info">Gained experience with:</p>
                 <div className="icon-container-exp">
                     <div className="icons-row-exp">
-                        <div className="icon-box-exp">{symfony()}</div>
-                        <div className="icon-box-exp">{css()}</div>
-                        <div className="icon-box-exp">{php()}</div>
-                        <div className="icon-box-exp">{java()}</div>
-                        <div className="icon-box-exp">{bitbucket()}</div>
-                        <div className="icon-box-exp">{js()}</div>
+                        <div className="icon-box-exp-text">Symfony</div>
+                        <div className="icon-box-exp-text">CSS</div>
+                        <div className="icon-box-exp-text">PHP</div>
+                        <div className="icon-box-exp-text">Java</div>
+                        <div className="icon-box-exp-text">Bitbucket</div>
+                        <div className="icon-box-exp-text">JavaScript</div>
                     </div>
                 </div>
             </div>
+            
             );
         } else if (this.state.companyShown === "Lexmark") {
-            height = 500;
+            height = 480;
+
             return(
             <div style={{height}} className="lexmark-blurb-container">
                 <h3 className="company-about-title">Lexmark International, Inc.</h3>
@@ -98,16 +113,21 @@ class Experience extends Component {
                 <p className="company-role-info">Gained experience with:</p>
                 <div className="icon-container-exp">
                     <div className="icons-row-exp">
-                        <div className="icon-box-exp">{python()}</div>
+                        {/* <div className="icon-box-exp">{python()}</div>
                         <div className="icon-box-exp">{mysql()}</div>
                         <div className="icon-box-exp">{csharp()}</div>
-                        <div className="icon-box-exp">{php()}</div>
+                        <div className="icon-box-exp">{php()}</div> */}
+                        <div className="icon-box-exp-text">Python</div>
+                        <div className="icon-box-exp-text">MySQL</div>
+                        <div className="icon-box-exp-text">C#</div>
+                        <div className="icon-box-exp-text">PHP</div>
                     </div>
                 </div>
             </div>
             );
         } else if (this.state.companyShown === "UK") {
             height = 800;
+
             return(
             <div style={{height}} className="uk-blurb-container">
                 <h3 className="company-about-title">University of Kentucky</h3>
@@ -133,53 +153,6 @@ class Experience extends Component {
             );
         }
     }
-
-
-	render() {
-
-
-        const {
-            isOpened,
-            blurbHeight,
-            stiffness,
-            damping
-          } = this.state;
-
-		return (
-			<div id="experience-section" className="Experience">
-                <div id="experience-title-container">
-                    <h1 id="experience-title">FIELD EXPERIENCE</h1>
-                </div>
-                <div className="experience-about">
-                    <p>{textData["blurbs"]["experience-descr"]}</p>
-                    <br />
-                </div>
-
-                <div className="company-button-container">
-                    <div className="company-logo-box"><img onClick={() => this.handleImageClick("CBS")} className="company-logo" src={cbsiLogo}></img><p>CBS Interactive<br />Summer 2018</p></div>
-                    <div className="company-logo-box"><img onClick={() => this.handleImageClick("Lexmark")} className="company-logo" src={lexmarkLogo}></img><p>Lexmark International<br />Summer 2017</p></div>
-                    <div className="company-logo-box"><img onClick={() => this.handleImageClick("UK")} className="company-logo" src={ukLogo}></img><p>University of Kentucky<br />2015 - Present</p></div>
-                </div>
-
-                <Collapse isOpened={isOpened} springConfig={{stiffness, damping}}>
-                    { this.renderCompany() }
-
-                    {/* <div className="cbs-blurb-container">
-                        <h3 className="company-about-title">CBS Interactive</h3>
-                    </div> */}
-
-                    {/* #018A44 lexmark
-                    #0033A0 uk
-                    #EF0000 cbs */}
-
-                    {/* <div className="lexmark-blurb-container">
-                        <h3 className="company-about-title">Lexmark International, Inc.</h3>
-                    </div> */}
-                </Collapse> 
-
-            </div>
-		);
-	}
 }
 
 export default Experience;

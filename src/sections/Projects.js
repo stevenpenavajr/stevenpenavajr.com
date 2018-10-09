@@ -17,7 +17,10 @@ class Projects extends Component {
                 </div>
                 <div className="project-container">
                     <img className="project-icon" src={dbIcon}></img>
+                    <div className="placeholder"></div>
                     <div className="project-description">
+                        <h1 className="project-title">Danceblue Restaurant Night Web Portal</h1>
+                        <h3 className="project-title">September 2018 - Present</h3>
                         <p>{textData["blurbs"]["projects-descr-db"]}</p>
                     </div>
                 </div>

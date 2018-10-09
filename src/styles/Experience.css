@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 .Experience {
     position: relative;
     /* height: 180vh !important; */
@@ -106,6 +108,15 @@
 
 .icon-box-exp {
     transition: all .2s ease-in-out;
+}
+
+.icon-box-exp-text {
+    transition: all .2s ease-in-out;
+    /* margin: auto; */
+    margin-top: 20px;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
 }
 
 .icon-box-exp:hover {

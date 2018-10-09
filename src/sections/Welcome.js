@@ -25,7 +25,7 @@ class Welcome extends Component {
 					<div id="welcome-section-button-container">
 						<a href="#skills-section"><button type="button" class="btn btn-outline-primary welcome-section-button">SKILLS</button></a>
 						<a href="#experience-section"><button type="button" class="btn btn-outline-primary welcome-section-button">FIELD EXPERIENCE</button></a>
-						<button type="button" class="btn btn-outline-primary welcome-section-button">CURRENT PROJECTS</button>
+						<a href="#projects-title"><button type="button" class="btn btn-outline-primary welcome-section-button">CURRENT PROJECTS</button></a>
 					</div>
 					<div id="welcome-title-img-container">
 						<a href="https://github.com/stevenpenavajr" target="_blank"><img className="welcome-title-icon" src={githubLogo} alt="Github"></img></a>
