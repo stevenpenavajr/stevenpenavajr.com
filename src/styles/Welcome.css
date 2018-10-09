@@ -4,6 +4,8 @@ body {
 
 #Welcome {
 	height: 100vh !important;
+	/* width: 100vw !important; */
+	width: 100vw !important;
 	display: block;
 }
 
@@ -84,5 +86,28 @@ body {
 
 	100% {
 		opacity: 1;
+	}
+}
+
+/* iPhone X */
+@media only screen and (max-width: 376px) {
+	.welcome-title-container {
+		width: 100%;
+	}
+	
+	#welcome-title-name {
+		font-size: 4em;
+	}
+	
+	.welcome-section-button {
+		margin-top: 20px;
+	}
+
+	#welcome-title-img-container {
+		margin-top: 20px;
+	}
+
+	.Experience {
+		height: 200vh !important;
 	}
 }

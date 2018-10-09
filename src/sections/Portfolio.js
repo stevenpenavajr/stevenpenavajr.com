@@ -1,3 +1,7 @@
+/* Portfolio component */
+/* Contains all other components */
+/* Is the parent of all sections */
+
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../styles/Portfolio.css';

@@ -1,17 +1,17 @@
+/* Font imports */
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 .Experience {
     position: relative;
-    /* height: 180vh !important; */
     background: #F8F8F8;
 }
 
+/* Experience title styles */
 #experience-title-container {
     position: relative;
     text-align: center;
     width: 70%;
     margin: 0 auto;
-
     padding-top: 30px;
 }
 
@@ -20,6 +20,7 @@
     font-size: 5em;
 }
 
+/* Description of page */
 .experience-about {
     padding-left: 10%;
     padding-right: 10%;
@@ -27,22 +28,22 @@
     font-size: 1.4em;
 }
 
-.company-button-container {
+.experience-company-button-container {
     display: flex;
     margin: 0 auto;
     width: 80%;
     justify-content: space-between;
 }
 
-.company-logo-box {
+.experience-company-logo-box {
     transition: all .2s ease-in-out;
 }
 
-.company-logo-box:hover {
+.experience-company-logo-box:hover {
     transform: scale(1.1);
 }
 
-.company-logo-box > p {
+.experience-company-logo-box > p {
     padding: 10px;
     text-align: center;
 }
@@ -55,7 +56,12 @@
 .cbs-blurb-container {
     background: #EF0000;
     height: 500px;
-    /* height: 100vh; */
+}
+
+.cbs-blurb-container-mobile {
+    background: #EF0000;
+    height: 500px;
+    display: none;
 }
 
 .company-about-title {
@@ -70,13 +76,21 @@
 .lexmark-blurb-container {
     background: #018A44;
     height: 500px;
-    /* height: 100vh; */
+}
+
+.lexmark-blurb-container-mobile {
+    height: 770px;
+    display: none;
+}
+
+.uk-blurb-container-mobile {
+    height: 800px;
+    display: none;
 }
 
 .uk-blurb-container {
     background: #0033A0;
     height: 800px;
-    /* height: 100vh; */
 }
 
 .company-role {
@@ -101,7 +115,6 @@
 
 .icons-row-exp {
     display: flex;
-    /* margin: 0 auto; */
     justify-content: space-between;
     margin: 20px;
 }
@@ -112,7 +125,6 @@
 
 .icon-box-exp-text {
     transition: all .2s ease-in-out;
-    /* margin: auto; */
     margin-top: 20px;
     font-size: 3em;
     font-family: 'Oswald', sans-serif;
@@ -122,3 +134,69 @@
 .icon-box-exp:hover {
     transform: scale(1.1);
 }
+
+/* .experience-company-image {
+    max-width: 100%;
+    height: auto;
+} */
+
+@media only screen and (max-width: 376px) {
+    #experience-title-container {
+        width: 100%;
+    }
+
+    #experience-title {
+        font-size: 3em;
+        /* padding: 10px; */
+    }
+
+    .experience-company-button-container {
+        width: 100%;
+        display: none;
+        /* display: inline; */
+    }
+
+    .experience-company-logo-box {
+        width: 100px;
+        margin: 0 auto;
+        margin-left: 29px;
+    }
+
+    .experience-company-logo-box > p {
+        display: none;
+    }
+
+    .experience-company-image {
+        width: 70%;
+    }
+
+    #collapser {
+        display: none;
+    }
+
+    .cbs-blurb-container-mobile {
+        background: #EF0000;
+        height: 570px;
+        display: block;
+    }
+
+    .lexmark-blurb-container-mobile {
+        background: #018A44;
+        height: 770px;
+        display: block;
+        
+        
+    }
+
+    .uk-blurb-container-mobile {
+        background: #0033A0;
+        height: 1600px;
+        display: block;
+    }
+    .Experience {
+        height: 430vh !important;
+    } 
+
+}
+
+

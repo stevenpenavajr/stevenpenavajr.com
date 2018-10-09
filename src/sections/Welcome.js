@@ -1,15 +1,18 @@
+/* Welcome component */
+/* Contains particles, name, buttons to skip to sections of the site */
+
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../styles/Welcome.css';
 
 import Particles from 'react-particles-js';
-import jsonData from './../data/particlesjs-config.json';
+import particlesJSON from './../data/particlesjs-config.json';
 
 import githubLogo from './../assets/github-logo.svg'
 import linkedInLogo from './../assets/linkedin-logo-round.svg'
 import mailLogo from './../assets/at.svg'
 
-const particleOptions = jsonData;
+const particleOptions = particlesJSON;
 
 class Welcome extends Component {
 	constructor(props) {
