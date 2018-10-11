@@ -111,3 +111,30 @@ body {
 		height: 200vh !important;
 	}
 }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	.welcome-title-container {
+		width: 100%;
+	}
+	
+	#welcome-title-name {
+		font-size: 5em;
+	}
+	
+	.welcome-section-button {
+		margin-top: 20px;
+	}
+
+	#welcome-title-img-container {
+		margin-top: 20px;
+	}
+
+	.Experience {
+		height: 200vh !important;
+	}
+  }
