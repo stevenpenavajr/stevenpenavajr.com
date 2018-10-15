@@ -5,7 +5,7 @@ body {
 #Welcome {
 	height: 100vh !important;
 	/* width: 100vw !important; */
-	width: 100vw !important;
+	/* width: 100vw !important; */
 	display: block;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 #welcome-title-name {
-	font-size: 7em;
+	font-size: 6em;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -31,18 +31,32 @@ body {
 /* Section button container & elements */
 #welcome-section-button-container {
 	margin-top: -10px;
+	/* margin: 0 auto; */
 	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	/* display: flex;
+	justify-content: center; */
+	/* flex-wrap: wrap; */
 }
 
 .welcome-section-button {
+	max-width: 100%;
+	height: auto;
 	border-color: white;
 	color: white;
-	display: inline;
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 190px;
-	padding: 9px;
+	/* display: inline; */
+	/* margin-left: 10px;
+	margin-right: 10px; */
+	/* width: 190px; */
+	width: 18em;
+	/* padding: 9px; */
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	padding: 0.8em;
 	transition: all .2s ease-in-out;
+	/* flex-grow: 1; */
+	/* width: 33%; */
 }
 
 .welcome-section-button:hover {
@@ -89,52 +103,3 @@ body {
 	}
 }
 
-/* iPhone X */
-@media only screen and (max-width: 376px) {
-	.welcome-title-container {
-		width: 100%;
-	}
-	
-	#welcome-title-name {
-		font-size: 4em;
-	}
-	
-	.welcome-section-button {
-		margin-top: 20px;
-	}
-
-	#welcome-title-img-container {
-		margin-top: 20px;
-	}
-
-	.Experience {
-		height: 200vh !important;
-	}
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-	.welcome-title-container {
-		width: 100%;
-	}
-	
-	#welcome-title-name {
-		font-size: 5em;
-	}
-	
-	.welcome-section-button {
-		margin-top: 20px;
-	}
-
-	#welcome-title-img-container {
-		margin-top: 20px;
-	}
-
-	.Experience {
-		height: 200vh !important;
-	}
-  }

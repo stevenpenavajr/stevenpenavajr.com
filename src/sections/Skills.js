@@ -55,37 +55,40 @@ class Skills extends Component {
                 </div>
 
                 <div className="skills-icon-container">
-                    <div className="skills-icons-row">
-                        <div className="skills-icon-box">{html()}<p>HTML5</p></div>
-                        <div className="skills-icon-box">{css()}<p>CSS3</p></div>
-                        <div className="skills-icon-box">{js()}<p>JavaScript</p></div>
-                        <div className="skills-icon-box">{bootstrap()}<p>Bootstrap</p></div>
-                        <div className="skills-icon-box">{sass()}<p>Sass</p></div>
-                        <div className="skills-icon-box">{illustrator()}<p>Illustrator</p></div>
-                    </div>
-                    <div className="skills-icons-row">
-                        <div className="skills-icon-box">{symfony()}<p>Symfony</p></div>
-                        <div className="skills-icon-box">{doctrine()}<p>Doctrine</p></div>
-                        <div className="skills-icon-box">{react()}<p>React</p></div>
-                        <div className="skills-icon-box">{chrome()}<p>Chrome Devtools</p></div>
-                        <div className="skills-icon-box">{mysql()}<p>MySQL</p></div>
-                        <div className="skills-icon-box">{dotnet()}<p>.NET</p></div>
-                    </div>
-                    <div className="skills-icons-row">
-                        <div className="skills-icon-box">{node()}<p>Node</p></div>
-                        <div className="skills-icon-box">{drupal()}<p>Drupal</p></div>
-                        <div className="skills-icon-box">{wordpress()}<p>Wordpress</p></div>
-                        <div className="skills-icon-box">{docker()}<p>Docker</p></div>
-                        <div className="skills-icon-box">{bitbucket()}<p>Bitbucket</p></div>
-                        <div className="skills-icon-box">{git()}<p>Git</p></div>
-                    </div>
-                    <div className="skills-icons-row">
-                        <div className="skills-icon-box">{php()}<p>PHP</p></div>
-                        <div className="skills-icon-box">{python()}<p>Python</p></div>
-                        <div className="skills-icon-box">{java()}<p>Java</p></div>
-                        <div className="skills-icon-box">{cpp()}<p>C++</p></div>
-                        <div className="skills-icon-box">{csharp()}<p>C#</p></div>
-                        <div className="skills-icon-box">{swift()}<p>Swift</p></div>
+                    <div className="row">
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{html()}<p>HTML5</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{css()}<p>CSS3</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{js()}<p>JavaScript</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{bootstrap()}<p>Bootstrap</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{sass()}<p>Sass</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{illustrator()}<p>Illustrator</p></div>
+                    {/* </div> */}
+
+                    {/* <div className="row"> */}
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{symfony()}<p>Symfony</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{doctrine()}<p>Doctrine</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{react()}<p>React</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{chrome()}<p>Chrome Devtools</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{mysql()}<p>MySQL</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{dotnet()}<p>.NET</p></div>
+                    {/* </div> */}
+                    
+                    {/* <div className="row"> */}
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{node()}<p>Node</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{drupal()}<p>Drupal</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{wordpress()}<p>Wordpress</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{docker()}<p>Docker</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{bitbucket()}<p>Bitbucket</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{git()}<p>Git</p></div>
+                    {/* </div> */}
+
+                    {/* <div className="row"> */}
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{php()}<p>PHP</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{python()}<p>Python</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{java()}<p>Java</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{cpp()}<p>C++</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{csharp()}<p>C#</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{swift()}<p>Swift</p></div>
                     </div>
                 </div>
 			</div>
