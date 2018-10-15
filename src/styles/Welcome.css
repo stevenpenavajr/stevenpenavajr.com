@@ -1,0 +1,105 @@
+body {
+	background-color: #1D2951;
+}
+
+#Welcome {
+	height: 100vh !important;
+	/* width: 100vw !important; */
+	/* width: 100vw !important; */
+	display: block;
+}
+
+/* Welcome title container & elements */
+.welcome-title-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	width: 80%;
+	z-index:2;
+	animation: fade-in;
+	animation-duration: 3s;
+}
+
+#welcome-title-name {
+	font-size: 6em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* Section button container & elements */
+#welcome-section-button-container {
+	margin-top: -10px;
+	/* margin: 0 auto; */
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	/* display: flex;
+	justify-content: center; */
+	/* flex-wrap: wrap; */
+}
+
+.welcome-section-button {
+	max-width: 100%;
+	height: auto;
+	border-color: white;
+	color: white;
+	/* display: inline; */
+	/* margin-left: 10px;
+	margin-right: 10px; */
+	/* width: 190px; */
+	width: 18em;
+	/* padding: 9px; */
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	padding: 0.8em;
+	transition: all .2s ease-in-out;
+	/* flex-grow: 1; */
+	/* width: 33%; */
+}
+
+.welcome-section-button:hover {
+	background-color: #545E7F;
+	border-color: #ffffff;
+	transform: scale(1.1);
+}
+
+/* Welcome image container & elements */
+#welcome-title-img-container {
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+
+.welcome-title-icon {
+	width: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	transition: all .2s ease-in-out
+}
+
+.welcome-title-icon:hover {
+	transform: scale(1.1);
+}
+
+/* ParticlesJS */
+.Particle-background {
+	width: 100%;
+	height: 100%;
+	z-index:1;
+	position: absolute; 
+}
+
+/* Animations */
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+

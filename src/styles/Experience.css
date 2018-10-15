@@ -1,0 +1,131 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.Experience {
+    position: relative;
+    background: #F8F8F8;
+}
+
+/* Experience title styles */
+#experience-title-container {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#experience-title {
+    color: #1D2951;
+    font-size: 5em;
+}
+
+/* Description of page */
+.experience-about {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    font-size: 1.4em;
+}
+
+.experience-company-button-container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.experience-company-logo-box {
+    transition: all .2s ease-in-out;
+}
+
+.experience-company-logo-box:hover {
+    transform: scale(1.1);
+}
+
+.experience-company-logo-box > p {
+    padding: 10px;
+    text-align: center;
+}
+
+.company-logo {
+    height: 200px;
+    
+}
+
+.company-about-title {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+
+.cbs-blurb-container-mobile {
+    background: #EF0000;
+    /* height: 500px; */
+    /* display: none; */
+    position: relative;
+    padding: 2em;
+}
+
+.lexmark-blurb-container-mobile {
+    /* height: 770px; */
+    /* display: none; */
+    position: relative;
+    background: #018A44;
+    padding: 2em;
+
+}
+
+.uk-blurb-container-mobile {
+    /* height: 800px; */
+    /* display: none; */
+    background: #0033A0;
+    position: relative;
+    padding: 2em;
+}
+
+.company-role {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-style: italic;
+    /* font-weight: bold; */
+}
+
+.company-role-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.icon-container-exp {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.icons-row-exp {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.icon-box-exp {
+    transition: all .2s ease-in-out;
+}
+
+.icon-box-exp-text {
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.icon-box-exp:hover {
+    transform: scale(1.1);
+}

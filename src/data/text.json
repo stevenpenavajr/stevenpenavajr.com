@@ -1,0 +1,30 @@
+{
+    "blurbs": {
+        "about": "My name is Steven Penava. I'm a Dean's List Computer Science student at the University of Kentucky with a unique blend of technical and interpersonal skills. I consider myself an excellent communicator, a diligent worker, and a creative thinker. I will graduate December 2018 and am currently searching for full-time opportunities.",
+
+        "skills-descr": "I have always enjoyed creating things. I have the most fun programming when I get to start from the ground up. My main interests include web development/design, mobile development, and machine learning. Here are some tools I've used in the past, both in class, on the side, and professionally:",
+
+        "experience-descr": "I've gained professional software engineering experience at a few different organizations during my undergraduate years. Below are a few sections representing the companies and the skills I sharpened working for them.",
+
+        "cbs-info-1": "Assisted CNET in detecting the origins of 404 errors by repairing and transferring an error monitoring tool to Google Cloud using Packer, Terraform, and Jenkins.",
+        "cbs-info-2": "Developed an understanding of large-scale website architecture by supporting a website (cnet.com) with more than 200 million active users per month.",
+        "cbs-info-3": "Independently made changes/additions to CNET.com and deployed to production using Docker, Bamboo, and Jenkins.",
+
+        "lexmark-info-1": "I was part of a software development scrum team and worked with automation testing tools for Lexmark printers. As an intern, I absorbed as much information as possible while also contributing to the efforts of the team to the best of my ability. I contributed in the following ways:",
+        "lexmark-info-2": "Crafted a REST API, among many other software tools, that consolidated data access in certain Lexmark locations with out-of-date database representations.",
+        "lexmark-info-3": "Built a program that monitored and displayed data regarding company-purchased software license usage, resulting in financial savings.",
+
+        "uk-ta-info-1": "I am currently assisting students in CS 115 Introduction to Computer Programming under Dr. Debby Keen.",
+        "uk-ta-info-2": "Proctoring and aiding students in weekly in-class lab assignments.",
+        "uk-ta-info-3": "Holding weekly office hours to help students with current projects.",
+
+        "uk-tutor-info-1": "I answer questions, provide guidance, and teach students seeking help in CS.",
+        "uk-tutor-info-2": "Holding weekly tutoring hours to help CS students across several different grade levels and courses succeed.",
+
+        "uk-research-info-1": "I completed research and tests for Dr. Zongming Fei and Dr. James Griffioen on an NSF-funded research project to study the implementation of Software-Defined Networking on campus network architecture.",
+        "uk-research-info-2": "Built a client/server software tool for the research project to achieve faster upload/download speeds than before. It's a Python daemon and makes use of multithreading, Flask server implementation, and SCP file transfers.",
+        "uk-research-info-3": "Used Wireshark & UNIX tools (tcpdump) to analyze incoming and outgoing packets to determine access points of cloud storage services that use dynamic IP addresses (e.g. Google Drive). This involved interpreting DNS responses and TCP transfers.",
+
+        "projects-descr-db": "I am currently collaborating with a few other Computer Science students at UK to create an automated system for restaurant night check-ins for my school's largest philanthropy event, DanceBlue. This involves creating a web portal with Symfony (complete with user authentication and MySQL database interaction), allowing team administrators to generate QR codes unique to their team, and making a connection to the already-existing iOS DanceBlue app."
+    }
+}

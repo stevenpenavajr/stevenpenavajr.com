@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	overflow-x: hidden !important;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	#welcome-title-name {
+		font-size: 4em !important;
+	}
+
+	#skills-title-text {
+		font-size: 3em !important;
+	}
+
+	#experience-title {
+		font-size: 2.5em !important;
+	}
+
+	#projects-title {
+		font-size: 3em !important;
+	}
+
+	.company-about-title {
+		font-size: 2.5em !important;
+	}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+	  #welcome-title-name {
+		  font-size: 4em !important;
+	  }
+
+	  #skills-title-text {
+		  font-size: 4em !important;
+	  }
+
+	  #experience-title {
+		  font-size: 3em !important;
+	  }
+
+	  #projects-title {
+		  font-size: 3em !important;
+	  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
