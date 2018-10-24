@@ -26,9 +26,10 @@ class Welcome extends Component {
 				<div className="welcome-title-container">
 					<h1 id="welcome-title-name">STEVEN PENAVA</h1>
 					<div id="welcome-section-button-container" className="row">
-						<div className="col-lg-4 col-md-12 col-sm-12 col-12"><a href="#skills-section"><button type="button" class="btn btn-outline-primary welcome-section-button">SKILLS</button></a></div>
-						<div className="col-lg-4 col-md-12 col-sm-12 col-12"><a href="#experience-section"><button type="button" class="btn btn-outline-primary welcome-section-button">FIELD EXPERIENCE</button></a></div>
-						<div className="col-lg-4 col-md-12 col-sm-12 col-12"><a href="#projects-title"><button type="button" class="btn btn-outline-primary welcome-section-button">CURRENT PROJECTS</button></a></div>
+						<div className="col-lg-3 col-md-12 col-sm-12 col-12"><a href="#skills-section"><button type="button" class="btn btn-outline-primary welcome-section-button">SKILLS</button></a></div>
+						<div className="col-lg-3 col-md-12 col-sm-12 col-12"><a href="#experience-section"><button type="button" class="btn btn-outline-primary welcome-section-button">FIELD EXPERIENCE</button></a></div>
+						<div className="col-lg-3 col-md-12 col-sm-12 col-12"><a href="#projects-title"><button type="button" class="btn btn-outline-primary welcome-section-button">CURRENT PROJECTS</button></a></div>
+						<div className="col-lg-3 col-md-12 col-sm-12 col-12"><a target="_blank" href="http://stevenpenavajr.com/files/StevenPenavaResume.pdf"><button type="button" class="btn btn-outline-primary welcome-section-button">RESUME (PDF)</button></a></div>
 					</div>
 					<div id="welcome-title-img-container">
 						<a href="https://github.com/stevenpenavajr" target="_blank"><img className="welcome-title-icon" src={githubLogo} alt="Github"></img></a>

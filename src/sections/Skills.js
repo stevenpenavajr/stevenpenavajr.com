@@ -44,11 +44,11 @@ class Skills extends Component {
 	render() {
 		return (
 			<div id="skills-section" className="Skills">
-                <div ref={this.myRef}></div>
                 <div id="skills-title-container">
                     <h1 id="skills-title-text">SKILLS</h1>
                 </div>
                 <div className="skills-about">
+                    {/* <p>Download my resume here.</p> */}
                     <p>{textData["blurbs"]["about"]}</p>
                     <p>{textData["blurbs"]["skills-descr"]}</p>
                     <br />

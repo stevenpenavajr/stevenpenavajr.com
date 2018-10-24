@@ -2,15 +2,10 @@
 /* Contains drop-downs for the companies I have worked for */
 
 import React, { Component } from 'react';
-import {Collapse} from 'react-collapse';
-import {presets} from 'react-motion';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../../styles/Experience.css';
 import textData from './../../data/text.json';
-import cbsiLogo from './../../assets/companies/cbsi-red.svg';
-import lexmarkLogo from './../../assets/companies/lexmark.svg';
-import ukLogo from './../../assets/companies/uk.svg';
 
 class Experience extends Component {
     constructor(props) {
