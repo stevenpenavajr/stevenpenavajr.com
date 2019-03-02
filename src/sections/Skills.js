@@ -6,6 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './../styles/Skills.css';
 import textData from './../data/text.json';
 
+import pythonLogo from '../assets/python.png';
+import swiftLogo from '../assets/swift.png';
+
+
 import {
     html,
     css,
@@ -29,7 +33,7 @@ import {
     cpp,
     csharp,
     git,
-    illustrator,
+    angular,
     swift,
     dotnet
 } from '../assets/icons';
@@ -48,7 +52,7 @@ class Skills extends Component {
                     <h1 id="skills-title-text">SKILLS</h1>
                 </div>
                 <div className="skills-about">
-                    {/* <p>Download my resume here.</p> */}
+                    <p><a target="_blank" href="http://stevenpenavajr.com/files/StevenPenavaResumeDec18.pdf">Download my resume here.</a></p>
                     <p>{textData["blurbs"]["about"]}</p>
                     <p>{textData["blurbs"]["skills-descr"]}</p>
                     <br />
@@ -61,7 +65,7 @@ class Skills extends Component {
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{js()}<p>JavaScript</p></div>
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{bootstrap()}<p>Bootstrap</p></div>
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{sass()}<p>Sass</p></div>
-                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{illustrator()}<p>Illustrator</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{angular()}<p>Angular</p></div>
                     {/* </div> */}
 
                     {/* <div className="row"> */}
@@ -84,11 +88,11 @@ class Skills extends Component {
 
                     {/* <div className="row"> */}
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{php()}<p>PHP</p></div>
-                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{python()}<p>Python</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill"><img width="120" height="120" src={pythonLogo}/><p>Python</p></div>
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{java()}<p>Java</p></div>
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{cpp()}<p>C++</p></div>
                         <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{csharp()}<p>C#</p></div>
-                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill">{swift()}<p>Swift</p></div>
+                        <div className="col-lg-2 col-sm-4 col-md-4 col-6 skill"><img width="120" height="120" src={swiftLogo}/><p>Swift</p></div>
                     </div>
                 </div>
 			</div>
