@@ -62,6 +62,14 @@
     font-weight: bold;
 }
 
+.ups-blurb-container-mobile {
+    background: #644117;
+    /* height: 500px; */
+    /* display: none; */
+    position: relative;
+    padding: 2em;
+}
+
 
 .cbs-blurb-container-mobile {
     background: #EF0000;

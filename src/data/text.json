@@ -1,8 +1,8 @@
 {
     "blurbs": {
-        "about": "My name is Steven Penava. I'm a Dean's List Computer Science student at the University of Kentucky with a unique blend of technical and interpersonal skills. I consider myself an excellent communicator, a diligent worker, and a creative thinker. I will graduate December 2018 and am currently searching for full-time opportunities.",
+        "about": "My name is Steven Penava. I'm a Dean's List Computer Science graduate from the University of Kentucky with a unique blend of technical and interpersonal skills. I consider myself an excellent communicator, a diligent worker, and a creative thinker. I graduated in December of 2018 and am currently developing applications full-time for the United Parcel Service.",
 
-        "skills-descr": "I have always enjoyed creating things. I have the most fun programming when I get to start from the ground up. My main interests include web development/design, mobile development, and machine learning. Here are some tools I've used in the past, both in class, on the side, and professionally:",
+        "skills-descr": "I have always enjoyed creating things. I have the most fun programming when I get to start from scratch. My main interests include web development/design, mobile development, and machine learning. Here are some tools I've used in the past, both in class, on the side, and professionally:",
 
         "experience-descr": "I've gained professional software engineering experience at a few different organizations during my undergraduate years. Below are a few sections representing the companies and the skills I sharpened working for them.",
 
@@ -14,17 +14,18 @@
         "lexmark-info-2": "Crafted a REST API, among many other software tools, that consolidated data access in certain Lexmark locations with out-of-date database representations.",
         "lexmark-info-3": "Built a program that monitored and displayed data regarding company-purchased software license usage, resulting in financial savings.",
 
-        "uk-ta-info-1": "I am currently assisting students in CS 115 Introduction to Computer Programming under Dr. Debby Keen.",
-        "uk-ta-info-2": "Proctoring and aiding students in weekly in-class lab assignments.",
-        "uk-ta-info-3": "Holding weekly office hours to help students with current projects.",
+        "uk-ta-info-1": "I assisted students in CS 115 Introduction to Computer Programming under Dr. Debby Keen.",
+        "uk-ta-info-2": "Proctored exams and aided students in weekly in-class lab assignments.",
+        "uk-ta-info-3": "Held weekly office hours to help students with current projects.",
 
-        "uk-tutor-info-1": "I answer questions, provide guidance, and teach students seeking help in CS.",
-        "uk-tutor-info-2": "Holding weekly tutoring hours to help CS students across several different grade levels and courses succeed.",
+        "uk-tutor-info-1": "I answered questions, provided guidance, and taught students seeking help in CS.",
+        "uk-tutor-info-2": "Held weekly tutoring hours to help CS students across several different grade levels and courses succeed.",
 
         "uk-research-info-1": "I completed research and tests for Dr. Zongming Fei and Dr. James Griffioen on an NSF-funded research project to study the implementation of Software-Defined Networking on campus network architecture.",
         "uk-research-info-2": "Built a client/server software tool for the research project to achieve faster upload/download speeds than before. It's a Python daemon and makes use of multithreading, Flask server implementation, and SCP file transfers.",
         "uk-research-info-3": "Used Wireshark & UNIX tools (tcpdump) to analyze incoming and outgoing packets to determine access points of cloud storage services that use dynamic IP addresses (e.g. Google Drive). This involved interpreting DNS responses and TCP transfers.",
 
-        "projects-descr-db": "I am currently collaborating with a few other Computer Science students at UK to create an automated system for restaurant night check-ins for my school's largest philanthropy event, DanceBlue. This involves creating a web portal with Symfony (complete with user authentication and MySQL database interaction), allowing team administrators to generate QR codes unique to their team, and making a connection to the already-existing iOS DanceBlue app."
+        "projects-descr-db": "I am currently collaborating with a few other Computer Science students at UK to create an automated system for restaurant night check-ins for my school's largest philanthropy event, DanceBlue. This involves creating a web portal with Symfony (complete with user authentication and MySQL database interaction), allowing team administrators to generate QR codes unique to their team, and making a connection to the already-existing iOS DanceBlue app.",
+        "projects-descr-poppin": "'Poppin.' is an iOS application currently in development that will serve as Lexington's premier drink deal finder. Upon opening the application, the user is presented with a list of currently active drink deals at bars all throughout Lexington. It is not complete just yet, but when it's released to the app store it will support Lexington and Louisville. We hope that the application makes it easier for of-age college students to make plans and explore new places, all while saving money."
     }
 }

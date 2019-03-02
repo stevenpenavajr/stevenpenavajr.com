@@ -23,6 +23,14 @@ class Experience extends Component {
                     <p>{textData["blurbs"]["experience-descr"]}</p>
                     <br />
                 </div>
+
+                <div className="ups-blurb-container-mobile">
+                    <h3 className="company-about-title">UPS</h3>
+                    <h4 className="company-role">Applications Developer</h4>
+                    <br />
+                    <p className="company-role-info">Currently working as an applications developer for the multi-site dispatch team.</p>
+                    <p className="company-role-info">Developing both the front and back ends of a metrics dashboard page for UPS packaging sites across the United States.</p>
+                </div>
                 
                 <div className="cbs-blurb-container-mobile">
                     <h3 className="company-about-title">CBS Interactive</h3>
@@ -47,13 +55,13 @@ class Experience extends Component {
                     <h3 className="company-about-title">University of Kentucky</h3>
                     <br />
                     <h4 className="company-role">Teaching Assistant for Introduction to Programming</h4>
-                    <h6 className="company-role">August 2018 - Present</h6>
+                    <h6 className="company-role">August 2018 - December 2018</h6>
                     <p className="company-role-info">{textData["blurbs"]["uk-ta-info-1"]}</p>
                     <p className="company-role-info">{textData["blurbs"]["uk-ta-info-2"]}</p>
                     <p className="company-role-info">{textData["blurbs"]["uk-ta-info-3"]}</p>
                     <br />
                     <h4 className="company-role">Computer Science Tutor for Tau Beta Pi</h4>
-                    <h6 className="company-role">August 2018 - Present</h6>
+                    <h6 className="company-role">August 2018 - December 2018</h6>
                     <p className="company-role-info">{textData["blurbs"]["uk-tutor-info-1"]}</p>
                     <p className="company-role-info">{textData["blurbs"]["uk-tutor-info-2"]}</p>
                     <p className="company-role-info">{textData["blurbs"]["uk-ta-info-3"]}</p>
